@@ -12,13 +12,14 @@ import ReviewsManagement from './components/admin/ReviewsManagement';
 
 import { ToastContainer } from 'react-toastify';
 import Dashboard from './components/admin/Dashboard';
-import CarsDetails from './components/ui/carsDetails';
+
 import SearchBar from './pages/SearchBar';
 import UserRentals from './components/user/UserRentals';
 import AboutUs from './components/ui/AboutUs';
 import TrendingCars from './components/ui/TrendingCars';
 import Cars from './components/ui/Cars';
 import Footer from './components/ui/Footer';
+import CarsDetails from './components/ui/carsDetails';
 
 
 
