@@ -17,7 +17,7 @@ import Loader from '../Loader';
 import { GetNewRentalForUser} from '../../features/rentals/rentalSlice';
 import CarReview from './CarReview';
 
-function CarsDetails() {
+const CarsDetails =() => {
 
 
 

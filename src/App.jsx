@@ -12,7 +12,7 @@ import ReviewsManagement from './components/admin/ReviewsManagement';
 
 import { ToastContainer } from 'react-toastify';
 import Dashboard from './components/admin/Dashboard';
-import CarDetails from './components/ui/carsDetails';
+import CarsDetails from './components/ui/carsDetails';
 import SearchBar from './pages/SearchBar';
 import UserRentals from './components/user/UserRentals';
 import AboutUs from './components/ui/AboutUs';
@@ -47,7 +47,7 @@ function App() {
     <Route path="/trending_cars" element={<TrendingCars />} />
     <Route path="/Cars" element={<Cars />} />
     
-    <Route path="/car/:_id" element={<CarDetails />} />
+    <Route path="/car/:_id" element={<CarsDetails/>} />
     <Route path="/search/:query" element={<SearchBar/>} />
 
 
