@@ -1,5 +1,5 @@
 import React from 'react';
-import TrendingCard from '../../pages/trendingCard';
+import TrendingCard from '../../pages/TrendingCard';
 
 
 const Cars = () => {
