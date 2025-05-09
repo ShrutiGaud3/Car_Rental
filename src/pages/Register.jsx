@@ -33,16 +33,19 @@ export default function Register() {
   const handleSubmit = (e) => {
     e.preventDefault();
      disptach(registerUser(formData))
-     setFormData({
+    
+  };
+
+  useEffect(()=>{
+     if(user){
+
+      setFormData({
        name : "",
        email : "" ,
        phone : "",
        password : ""
      })
-  };
-
-  useEffect(()=>{
-     if(user){
+       
       navigate("/")
      }
      else if (isError && message){

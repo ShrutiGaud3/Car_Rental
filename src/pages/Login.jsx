@@ -34,17 +34,20 @@ export default function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(loginUser(formData))
-    setFormData({
-      email : "",
-      password : ""
-    })
+   
       
   };
 
   useEffect(()=>{
-    console.log("working");
+ 
+
+   
     
     if(user){
+        setFormData({
+      email : "",
+      password : ""
+    })
        navigate("/")
     }
     else if(isError && message){
