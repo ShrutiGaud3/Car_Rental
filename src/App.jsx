@@ -19,7 +19,7 @@ import AboutUs from './components/ui/AboutUs';
 import TrendingCars from './components/ui/TrendingCars';
 import Cars from './components/ui/Cars';
 import Footer from './components/ui/Footer';
-import CarsDetails from './components/ui/carsDetails';
+import CarsDetails from './components/ui/CarsDetails';
 
 
 
