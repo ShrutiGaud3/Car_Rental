@@ -39,10 +39,7 @@ export default function Login() {
   };
 
   useEffect(()=>{
- 
 
-   
-    
     if(user){
         setFormData({
       email : "",
@@ -87,7 +84,7 @@ export default function Login() {
 
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="bg-white py-8 px-4 shadow sm:rounded-md sm:px-10">
-          <form className="space-y-6" onSubmit={handleSubmit}>
+          <form className="space-y-6" onSubmit={handleSubmit} autoComplete='off'>
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                 Email address
