@@ -12,6 +12,11 @@ const Dashboard = () => {
 
   const dispatch = useDispatch();
 
+  
+  useEffect(()=>{
+     window.scrollTo(0 , 0)
+  },[])
+
   useEffect(() => {
     dispatch(getReviewsForAdmin());
     dispatch(getRentalsForAdmin());
@@ -24,6 +29,7 @@ const Dashboard = () => {
     }, 0);
     return userAcc + userTotal;
   }, 0);
+
 
   return (
     <div className="min-h-screen bg-gray-800 text-white px-6 py-10">
